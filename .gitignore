@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Android / Capacitor build artifacts
+android/.gradle
+android/build
+android/app/build
+android/app/src/main/assets/public
+android/local.properties
+android/.idea
+android/captures
+*.keystore
+!debug.keystore
+
+# APK binaries (如需上传APK请删除这一行)
+*.apk
+
+# Temp files
+*.tsbuildinfo
+*.timestamp-*.mjs
+npm-output.txt
+
+# npm cache dirs
+.npm-cache-fresh/
+.npm-cache/
